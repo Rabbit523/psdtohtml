@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Playamo Free Casino</title>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<link rel="icon" href="assets/images/logo.png" width="10px" height="10px"/>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" >
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="assets/js/index.js"></script>
+	</head>
+	<body>		
+		<nav id="menu" class="mm-menu mm-border-none mm-theme-black mm-offcanvas">
+			<div class="mm-panels">
+				<div class="mobile-menu mm-panel mm-opened mm-current" id="mm-1">
+					<!-- asd -->
+    			<div class="mobile-auth"> <!-- If user is not existed -->
+	    			<div class="mobile-auth__anon">
+	        		<a class="mobile-auth__register-link signup_btn" href="#">Sign Up</a>
+        			<div class="mobile-auth__anon-text">Just 8 seconds</div>
+	        		<a class="mobile-auth__login-link login_btn" href="#">Sign In</a>
+	    			</div>
+					</div>
+	        <ul class="header-menu mm-listview">
+	    			<li class="header-menu__item">
+	        		<a class="header-menu__link header-menu__link--games header-menu__link--current" href="/games">All Games</a>
+	    			</li>
+	    			<li class="header-menu__item">
+	        		<a class="header-menu__link header-menu__link--top-games" href="/games/top_games">Top games</a>
+				    </li>
+				    <li class="header-menu__item">
+							<a class="header-menu__link header-menu__link--new" href="/games/new">New</a>
+				    </li>
+				    <li class="header-menu__item">
+							<a class="header-menu__link header-menu__link--slots" href="/games/slots">Slots</a>
+				    </li>
+				    <li class="header-menu__item">
+							<a class="header-menu__link header-menu__link--roulette" href="/games/playamo_net_roulette">Roulette Games</a>
+				    </li>
+				    <li class="header-menu__item">
+							<a class="header-menu__link header-menu__link--blackjack" href="/games/playamo_net_blackjack">Blackjack</a>
+				    </li>
+					</ul>
+	        <div class="left-menu-mobile text-center">
+            <a href="" class="logo"> <img src="assets/images/logo.png" alt=""> </a>
+	        </div>
+		    </div>
+		  </div>
+		</nav>
+		<div id="mm-0" class="mm-page mm-slideout">
+			<div class="carcass">
+				<header class="header">
+					<div class="header__desktop">
+						<div class="header__desktop-wrap">
+							<a href="#" class="header__logo">
+								<img class="header__logo-img" src="assets/images/logo.png">
+							</a>
+							<div class="header-auth">
+								<div class="header-auth__anon">
+									<div class="header-auth__sign-up-text">Just 8 seconds</div>
+									<div class="header-auth__arrow"></div>
+									<a class="btn-p btn-p-oval btn-p-green header-auth__btn signup_btn" href="#">Sign Up</a>
+									<a class="btn-p btn-p-oval btn-p-yellow header-auth-sign-in login_btn" href="#">Sign In</a>
+								</div>
+							</div>
+						</div>
+						<ul class="header-menu">
+							<li class="header-menu__item">
+								<a class="header-menu__link header-menu__link--lobby header-menu__link--current" href="#">All Games</a>
+							</li>
+							<li class="header-menu__item">
+								<a class="header-menu__link header-menu__link--top-games" href="#">Top Games</a>
+							</li>
+							<li class="header-menu__item">
+								<a class="header-menu__link header-menu__link--new" href="#">New</a>
+							</li>
+							<li class="header-menu__item">
+								<a class="header-menu__link header-menu__link--slots" href="#">Slots</a>
+							</li>
+							<li class="header-menu__item">
+								<a class="header-menu__link header-menu__link--roulette" href="#">Roulette Games</a>
+							</li>
+							<li class="header-menu__item">
+								<a class="header-menu__link header-menu__link--blackjack" href="#">Blackjack</a>
+							</li>
+						</ul>
+					</div>
+					<div class="header__mobile">
+        		<div class="header__mobile-wrp">
+            	<a href="#menu" class="header__mobile-btn">
+                <button type="button" class="header__mobile-navbar">
+                  <i class="glyphicon glyphicon-menu-hamburger"></i>
+                </button>
+            	</a>
+    				</div>
+						<a href="#" class="header__mobile-logo">
+							<img class="header__mobile-logo-img" src="assets/images/logo.png">
+						</a>
+						<span class="header__fake-lang-mob"></span>
+					</div>
+				</header>
+				<div class="carcass__body">
+					<div class="ui-view">
+						<div class="main-slider">
+							<div class="main-slider__wrap">
+								<div class="owl-carousel owl-theme">
+									<div class="main-slider__img" style="background-image: url(assets/images/PlayAmo_net-01-home_slider-1770x390_min.jpg);">
+										<div class="main-slider__promo">
+											<div class="main-slider__promo-wrp-img">
+												<img class="main-slider__promo-img" src="assets/images/PlayAmo-FREE_casino-REG-slider-ENG2-499x359-min.png" alt="">
+											</div>
+											<a class="main-slider__btn signup_btn" href="#">Sign Up</a>
+										</div>
+									</div>
+									<div class="main-slider__img" style="background-image: url(assets/images/PlayAmo_net-02-home_slider-1770x390-min.jpg);">
+										<div class="main-slider__promo">
+											<div class="main-slider__promo-wrp-img">
+												<img class="main-slider__promo-img" src="assets/images/PlayAmo-FREE_games-REG-slider-ENG-499x359.png" alt="">
+											</div>
+											<a class="main-slider__btn signup_btn" href="#">Sign Up</a>
+										</div>
+									</div>
+									<div class="main-slider__img" style="background-image: url(assets/images/PlayAmo_net-03-home_slider-1770x390.jpg);">
+										<div class="main-slider__promo">
+											<div class="main-slider__promo-wrp-img">
+												<img class="main-slider__promo-img" src="assets/images/PlayAmo-Play_free-REG-slider-ENG-499x359.png" alt="">
+											</div>
+											<a class="main-slider__btn signup_btn" href="#">Sign Up</a>
+										</div>
+									</div>
+									<div class="main-slider__img" style="background-image: url(assets/images/PlayAmo-playamofree-info_mob.jpg);">
+										<div class="main-slider__promo">
+											<div class="main-slider__promo-wrp-img">
+												<img class="main-slider__promo-img" src="assets/images/PlayAmo-NOT_real_money-REG-slider-ENG-499x359.png" alt="">
+											</div>
+											<a class="main-slider__btn signup_btn" href="#">Sign Up</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-mobile">
+							<div class="owl-carousel owl-theme">
+								<div class="slider-mobile__img" style="background-image: url(assets/images/PlayAmo_net-01-ENG-HomeSlider-mob_ver-750x400.jpg);">
+									<div class="slider-mobile__btn">
+										<button class="btn btn_lg btn-success signup_btn">Sign Up</button>
+									</div>
+								</div>
+								<div class="slider-mobile__img" style="background-image: url(assets/images/PlayAmo_net-02-ENG-HomeSlider-mob_ver-750x400.jpg);">
+									<div class="slider-mobile__btn">
+										<button class="btn btn_lg btn-success signup_btn">Sign Up</button>
+									</div>
+								</div>
+								<div class="slider-mobile__img" style="background-image: url(assets/images/PlayAmo_net-03-ENG-HomeSlider-mob_ver-750x400.jpg);">
+									<div class="slider-mobile__btn">
+										<button class="btn btn_lg btn-success signup_btn">Sign Up</button>
+									</div>
+								</div>
+								<div class="slider-mobile__img" style="background-image: url(assets/images/PlayAmo_net-04-ENG-HomeSlider-mob_ver-750x400.jpg);">
+									<div class="slider-mobile__btn">
+										<button class="btn btn_lg btn-success signup_btn">Sign Up</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wrapper-pl">
+							<div class="game-category--home game-category">
+								<ul class="games-menu">
+									<li class="games-menu__item games-menu__item--current" id="games-menu__item--lobby">
+										<a href="#" class="games-menu__link">
+											<i class="games-menu__icon icon-pa-category-game-lobby"></i>
+											<span class="games-menu__title">Game lobby</span>
+										</a>
+									</li>
+									<li class="games-menu__item" id="games-menu__item--new">
+										<a href="#" class="games-menu__link">
+											<i class="games-menu__icon icon-pa-category-new"></i>
+											<span class="games-menu__title">New</span>
+										</a>
+									</li>
+									<li class="games-menu__item" id="games-menu__item--slots">
+										<a href="#" class="games-menu__link">
+											<i class="games-menu__icon icon-pa-category-slots"></i>
+											<span class="games-menu__title">Slots</span>
+										</a>
+									</li>
+									<li class="games-menu__item" id="games-menu__item--blackjack">
+										<a href="#" class="games-menu__link">
+											<i class="games-menu__icon icon-pa-category-blackjack"></i>
+											<span class="games-menu__title">Blackjack</span>
+										</a>
+									</li>
+									<li class="games-menu__item" id="games-menu__item--roulette">
+										<a href="#" class="games-menu__link">
+											<i class="games-menu__icon icon-pa-category-roulette-games"></i>
+											<span class="games-menu__title">Roulette Games</span>
+										</a>
+									</li>
+								</ul>
+								<div class="games-menu-mobile">
+									<div class="games-menu-mob__providers provider-search--mob provider-search">
+										<div class="provider-search__wrap">
+											<button class="provider-search__btn" type="button" id="set_provider" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            						<span id="selected-provider">All Providers</span>
+            						<span class="provider-search__caret"></span>
+        							</button>
+											<ul class="provider-search__dropdown" aria-labelledby="set_provider">
+												<li class="provider-search__item provider-search__item--all current">
+													<a class="provider-search__link" href="#">
+														<span class="provider-search__icon">
+															<img class="provider-search__icon-img" src="assets/images/4-squares.svg" alt="All">
+														</span>
+														<span>All Providers</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<section class="games-list">
+								<div class="title-block">
+									<div class="title-block__wrap">
+										<h1 class="title-block__title">Roulette Games</h1>
+									</div>
+								</div>
+								<div class="games-list__wrap lobby active">
+									<div class="game-item" data-id="Wolf_Gold">
+										<div class="game-item__wrap" id="Wolf_Gold">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/pragmatic/WolfGold.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Wolf Gold</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__pragmatic" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/pragmatic.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Book_Dead">
+										<div class="game-item__wrap" id="Book_Dead">
+    									<div class="game-item__img-wrp">
+        								<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/playngo/BookofDead.webp" style="opacity: 1;">
+    									</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Book of Dead</p>
+														<div class="game-item__provider">
+															<img class="game-item__provider-img providers-icon-img__playngo" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/playngo.svg">
+														</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Thunderstruck">
+										<div class="game-item__wrap" id="Thunderstruck">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/quickfire/MGS_ThnderStrck2.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Thunderstruck II</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__microgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/microgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Buffalo_King">
+										<div class="game-item__wrap" id="Buffalo_King">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/pragmatic/BuffaloKing.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Buffalo King</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__pragmatic" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/pragmatic.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Golden_Colts">
+										<div class="game-item__wrap" id="Golden_Colts">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/playngo/GoldenColts.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Golden Colts</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__playngo" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/playngo.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Millionaire">
+										<div class="game-item__wrap" id="Millionaire">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/quickfire/MGS_Millionaire.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Who wants to be a Millionaire</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bigtimegaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bigtimegaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Moon_Princess">
+										<div class="game-item__wrap" id="Moon_Princess">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/playngo/MoonPrincess.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Moon Princess</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__playngo" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/playngo.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Scarab_Queen">
+										<div class="game-item__wrap" id="Scarab_Queen">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/pragmatic/JohnHunterandtheTomboftheScarabQueen.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">John Hunter and the Tomb of the Scarab Queen</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__pragmatic" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/pragmatic.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Mustang_Gold">
+										<div class="game-item__wrap" id="Mustang_Gold">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/pragmatic/MustangGold.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Mustang Gold</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__quickfire" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/quickfire.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="quickfire" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/quickfire.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Caribbean_Poker">
+										<div class="game-item__wrap" id="Caribbean_Poker">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/bsg/12.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Caribbean Poker</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="games-list__wrap new">
+									<div class="game-item" data-id="Football_Star_Deluxe">
+										<div class="game-item__wrap" id="Football_Star_Deluxe">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/quickfire/MGS_FootballStarDeluxe.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Football Star Deluxe</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Fruit_Party">
+										<div class="game-item__wrap" id="Fruit_Party">
+    									<div class="game-item__img-wrp">
+        								<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/pragmatic/FruitParty.webp" style="opacity: 1;">
+    									</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Fruit Party</p>
+														<div class="game-item__provider">
+															<img class="game-item__provider-img providers-icon-img__yggdrasil" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/yggdrasil.svg">
+														</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Hot_Shots2">
+										<div class="game-item__wrap" id="Hot_Shots2">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/isoftbet/HotShots2.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Hot Shots 2</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__belatra" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/belatra.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Moon_Sisters">
+										<div class="game-item__wrap" id="Moon_Sisters">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/infin/MoonSistersHoldandWin.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Moon Sisters: Hold and Win</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__belatra" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/belatra.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Ice_Valley">
+										<div class="game-item__wrap" id="Ice_Valley">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/egt/IceValley.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Ice Valley</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Majestic_King">
+										<div class="game-item__wrap" id="Majestic_King">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/spinomenal/MajesticKingExpandedEdition.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Majestic King - Expanded Edition</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Arthurs_Fortune">
+										<div class="game-item__wrap" id="Arthurs_Fortune">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/yggdrasil/ArthursFortune.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Arthurs Fortune</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Dragon_Match_Megaways">
+										<div class="game-item__wrap" id="Dragon_Match_Megaways">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/isoftbet/DragonMatchMegaways.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Dragon Match Megaways</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Charlie_Chance">
+										<div class="game-item__wrap" id="Charlie_Chance">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/playngo/CharlieChance.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Charlie Chance</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__quickfire" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/quickfire.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="quickfire" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/quickfire.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="All_Stars_Blackjack">
+										<div class="game-item__wrap" id="All_Stars_Blackjack">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/ezugi/AllStarsBlackjack.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">All Stars Blackjack</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="games-list__wrap slots">
+									<div class="game-item" data-id="Billyonaire">
+										<div class="game-item__wrap" id="Billyonaire">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/amatic/Billyonaire.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Billyonaire</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Book_Of_Fortune">
+										<div class="game-item__wrap" id="Book_Of_Fortune">
+    									<div class="game-item__img-wrp">
+        								<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/amatic/BookOfFortune.webp" style="opacity: 1;">
+    									</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Book Of Fortune</p>
+														<div class="game-item__provider">
+															<img class="game-item__provider-img providers-icon-img__yggdrasil" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/yggdrasil.svg">
+														</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Diamond_Cats">
+										<div class="game-item__wrap" id="Diamond_Cats">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/amatic/DiamondCats.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Diamond Cats</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__belatra" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/belatra.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Arising_Phoenix">
+										<div class="game-item__wrap" id="Arising_Phoenix">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/amatic/ArisingPhoenix.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Arising Phoenix</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__belatra" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/belatra.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Brave_Viking">
+										<div class="game-item__wrap" id="Brave_Viking">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/BraveViking.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Brave Viking</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Platinum_Lightning">
+										<div class="game-item__wrap" id="Platinum_Lightning">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/PlatinumLightning.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Platinum Lightning</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Fairy_Tale">
+										<div class="game-item__wrap" id="Fairy_Tale">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/endorphina/endorphina_FairyTale.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Fairy Tale</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Book_of_Pyramids">
+										<div class="game-item__wrap" id="Book_of_Pyramids">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/BookOfPyramids.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Book of Pyramids</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Desert_Treasure">
+										<div class="game-item__wrap" id="Desert_Treasure">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/DesertTreasure.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Desert Treasure</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__quickfire" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/quickfire.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="quickfire" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/quickfire.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Jetsetter">
+										<div class="game-item__wrap" id="Jetsetter">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/endorphina/endorphina_Jetsetter.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Jetsetter</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Sushi">
+										<div class="game-item__wrap" id="Sushi">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/endorphina/endorphina_Sushi.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Sushi</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Ninja">
+										<div class="game-item__wrap" id="Ninja">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/endorphina/endorphina_Ninja.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Ninja</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Admiral_Nelson">
+										<div class="game-item__wrap" id="Admiral_Nelson">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/amatic/Admiral.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Admiral Nelson</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Journey_Flirt">
+										<div class="game-item__wrap" id="Journey_Flirt">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/JourneyFlirt.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Journey Flirt</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Urartu">
+										<div class="game-item__wrap" id="Urartu">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/endorphina/endorphina_Urartu.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Urartu</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="games-list__wrap blackjack">
+									<div class="game-item" data-id="Multihand_Blackjack">
+										<div class="game-item__wrap" id="Multihand_Blackjack">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/pragmatic/MultihandBlackjack.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Multihand Blackjack</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="European_Blackjack">
+										<div class="game-item__wrap" id="European_Blackjack">
+    									<div class="game-item__img-wrp">
+        								<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/bsg/191.webp" style="opacity: 1;">
+    									</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">European Blackjack</p>
+														<div class="game-item__provider">
+															<img class="game-item__provider-img providers-icon-img__yggdrasil" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/yggdrasil.svg">
+														</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Blackjack_Surrender">
+										<div class="game-item__wrap" id="Blackjack_Surrender">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/BlackjackSurrender.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Blackjack Surrender</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__belatra" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/belatra.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Double_Exposure">
+										<div class="game-item__wrap" id="Double_Exposure">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/DoubleExposure.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Double Exposure</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__belatra" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/belatra.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Pontoon">
+										<div class="game-item__wrap" id="Pontoon">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/Pontoon.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Pontoon</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Blackjack">
+										<div class="game-item__wrap" id="Blackjack">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/platipus/blackjack.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Blackjack</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="games-list__wrap roulette">
+									<div class="game-item" data-id="European_Roulette_VIP">
+										<div class="game-item__wrap" id="European_Roulette_VIP">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/isoftbet/EuropeanRouletteVIP.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">European Roulette VIP</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Golden_Chip_Roulette">
+										<div class="game-item__wrap" id="Golden_Chip_Roulette">
+    									<div class="game-item__img-wrp">
+        								<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/yggdrasil/GoldenChipRoulette.webp" style="opacity: 1;">
+    									</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Golden Chip Roulette</p>
+														<div class="game-item__provider">
+															<img class="game-item__provider-img providers-icon-img__yggdrasil" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/yggdrasil.svg">
+														</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="European_Roulette1">
+										<div class="game-item__wrap" id="European_Roulette1">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/belatra/EuropeanRoulette.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">European Roulette</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__belatra" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/belatra.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="American_Roulette1">
+										<div class="game-item__wrap" id="American_Roulette1">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/belatra/AmericanRoulette.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">American Roulette</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__belatra" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/belatra.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="European_Roulette_Silver">
+										<div class="game-item__wrap" id="European_Roulette_Silver">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/isoftbet/EuropeanRouletteSilver.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">European Roulette Silver</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="isoftbet" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/isoftbet.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="American_Roulette2">
+										<div class="game-item__wrap" id="American_Roulette2">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/AmericanRoulette.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">American Roulette</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="French_Roulette">
+										<div class="game-item__wrap" id="French_Roulette">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/FrenchRoulette.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">French Roulette</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="European_Roulette2">
+										<div class="game-item__wrap" id="European_Roulette2">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/softswiss/EuropeanRoulette.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">European Roulette</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bgaming" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bgaming.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Sapphire_Roulette">
+										<div class="game-item__wrap" id="Sapphire_Roulette">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/quickfire/MGS_SapphireRoulette.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Sapphire Roulette</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__quickfire" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/quickfire.svg" onerror="this.src='/resources/images/4-squares.svg'" alt="quickfire" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/quickfire.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="game-item" data-id="Caribbean_Poker">
+										<div class="game-item__wrap" id="Caribbean_Poker">
+											<div class="game-item__img-wrp">
+												<img class="game-item__img" src="https://cdn.softswiss.net/playamo/i/s2/bsg/12.webp" style="opacity: 1;">
+											</div>
+											<div class="game-item__overlay">
+												<div class="game-item__wrp-btn">
+													<button class="btn-p btn-p-primary game-item__play signup_btn">Play now</button>
+												</div>
+												<div class="game-item__panel">
+													<p class="game-item__name">Caribbean Poker</p>
+													<div class="game-item__provider">
+														<img class="game-item__provider-img providers-icon-img__bsg" src="https://cdn.softswiss.net//playamo/logos/providers_small/color/bsg.svg">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+							<div class="home-banner-bottom">
+								<h3 class="decor-title">BEST FREE SOCIAL CASINO</h3>
+								<div class="first-banner">
+									<div class="cms-row row">
+										<div class="first-banner_content col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1">
+											<h2>Play the latest casino games for fun.</h2>
+											<p>If you’re looking for FREE premium gaming entertainment, then Playamo is where you want to play. The internationally acclaimed Social Casino offers a wide selection of the most popular slots and table games, live dealer, first-class software, thrilling promotions, tailor-made offers and friendly support around the clock.</p>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-10 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1 first-banner_image-section">
+											<img src="assets/images/genie.png">
+										</div>
+									</div>
+									<div class="cms-row row">
+										<div class="first-banner_content col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1">
+											<h2>Enjoy new casino games free.</h2>
+											<p>All the latest blockbuster games from award winning providers are waiting for you at Playamo every month. In Playamo you will find 2000+ free-to-play games from 30+ providers to suit every taste. Register now to stay up-to-date with all of the latest special promotions, news and game releases.</p>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-10 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1 first-banner_image-section">
+											<img src="assets/images/bag.png">
+										</div>
+									</div>
+									<div class="cms-row row">
+										<div class="first-banner_content col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1">
+											<h2>Free Casino Games to Play Online.</h2>
+											<p> Play free casino games through your computer or mobile device without the need to download extra software</p>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-10 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1 first-banner_image-section">
+											<img src="assets/images/girl.png">
+										</div>
+									</div>
+								</div>
+								<div class="second-banner">
+									<div class="text">
+										<h2>Enough reasons to join?</h2>
+									</div>
+									<a class="btn-promo-sign_up">Register and start winning!</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer class="footer footer--desktop">
+					<div class="wrapper-menu">
+						<hr class="horizontal-line horizontal-line--remove-padding">
+						<div class="footer__wrap">
+							<div class="antillephone-wrp">
+								Free casino playamofree.com is owned and operated by Direx N.V., a company registered and established under the
+								laws of Curacao and its wholly owned subsidiary, Direx Limited, registered address Stasinou 1, MITSI
+								Building 1, 1st Floor, Flat/Office 4, Plateia Eleftherias, Nicosia, Cyprus.
+							</div>
+							<p>
+								The games are intended for an adult audience.
+								The games do not offer "real money gambling" or an opportunity to win real money or prizes.
+								Practice or success at social casino gaming does not imply future success at "real money gambling."
+								Our games are free to play - no money is needed.
+							</p>
+							<nav class="footer-menu">
+								<a class="footer-menu__item" ng-repeat="item in menu" ng-class="{'current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.external({id:'terms-and-privacy', lang:'en'})" ng-bind="item.title" ng-click="scrollPageTo()" href="/terms-and-privacy">TERMS AND CONDITIONS AND PRIVACY POLICY</a>
+							</nav>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="sign-up-modal__left">
+						<div>
+							<img src="assets/images/logo.png" alt="logo">
+						</div>
+						<div class="sign-up-modal__left-content">
+							<p><strong>Welcome to the FREE casino playamofree.com. Register to try our FREE games. playamofree.com casino is available from any device, on any platform.</strong></p>
+							<ul>
+								<li>Play free casino games for fun</li>
+								<li>You can not use or win real money on this website</li>
+								<li>The winnings on playamofree.com can not be exchanged for real money or prizes</li>
+							</ul>
+						</div>
+    			</div>
+					<div class="sign-up-modal__right">
+    				<div class="sign-up-modal__header">
+        			<div>
+								<h1>Sign up, it’s free and easy!</h1>
+							</div>
+    				</div>
+    				<div class="modal-body">
+        			<div class="row">
+								<form class="col-12 form" id="step1">
+									<div class="form-group">
+										<input type="text" class="form-control" name="user_email" id="user_email" placeholder="Email" required>
+										<i class="input-elem__icon icon-pa input-elem__icon--email"></i>
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" name="user_password" id="user_password" placeholder="Password" required>
+										<i class="input-elem__icon icon-pa input-elem__icon--password"></i>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="user_first_name" id="user_first_name" placeholder="First name" required>
+										<i class="input-elem__icon icon-pa input-elem__icon--first_name"></i>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="user_last_name" id="user_last_name" placeholder="Last name" required>
+										<i class="input-elem__icon icon-pa input-elem__icon--last_name"></i>
+									</div>
+									<div class="group-box">
+										<div class="form-group">
+											<input type="number" pattern="[0-9]*" class="form-control" id="birthday-field__input--birthday-dd" name="birth_dd" placeholder="DD" required>
+											<i class="birthday-field__icon icon-pa icon-pa-date"></i>
+										</div>
+										<div class="form-group">
+											<input type="number" pattern="[0-9]*" class="form-control" id="birthday-field__input--birthday-mm" name="birth_mm" placeholder="MM" required>
+											<i class="birthday-field__icon icon-pa icon-pa-date"></i>
+										</div>
+										<div class="form-group">
+											<input type="number" pattern="[0-9]*" class="form-control" id="birthday-field__input--birthday-yy" name="birth_yy" placeholder="YYYY" required>
+											<i class="birthday-field__icon icon-pa icon-pa-date"></i>
+										</div>
+									</div>
+									<div class="form-group next-group">
+										<button type="submit" class="btn btn-lg btn-success flat btn-next">next</button>
+									</div>
+									<div class="similar_info text-center">
+										Have an account?
+										<a href="#" class="sign_in_btn login_btn">Sign In</a>
+									</div>
+								</form>
+								<form class="col-12 form" id="step2">
+									<div class="form-group">
+										<input type="text" class="form-control" name="user_city" id="user_city" placeholder="City" required>
+										<i class="input-elem__icon icon-pa input-elem__icon--city"></i>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="user_address" id="user_address" placeholder="Address" required>
+										<i class="input-elem__icon icon-pa input-elem__icon--address"></i>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="user_postal_code" id="user_postal_code" placeholder="Postal code" required>
+										<i class="input-elem__icon icon-pa input-elem__icon--postal_code"></i>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="user_phone" id="user_phone" placeholder="Phone" required>
+										<img class="input-elem__icon--user_phone" src="assets/images/telephone.svg"></i>
+									</div>
+									<div class="form-group">
+										<label class="checkbox-elem email_check">
+											<input class="checkbox-elem__input" type="checkbox" id="email_check" placeholder="Receive Email Promos">
+											<span class="checkbox-elem__icon"></span>
+											<span class="checkbox-elem__text">Receive Email Promos<sup class="checkbox-elem__required">*</sup></span>
+										</label>
+										<label class="checkbox-elem sms_check">
+											<input class="checkbox-elem__input" type="checkbox" id="sms_check" placeholder="Receive Email Promos">
+											<span class="checkbox-elem__icon"></span>
+											<span class="checkbox-elem__text">Receive SMS Promos<sup class="checkbox-elem__required">*</sup></span>
+										</label>
+										<label class="checkbox-elem terms_check">
+											<input class="checkbox-elem__input" type="checkbox" id="terms_check" placeholder="Receive Email Promos">
+											<span class="checkbox-elem__icon"></span>
+											<span class="checkbox-elem__text">I am 18 years old and I accept the <a href="terms-and-privacy.html" target="_blank">Terms and Conditions</a> and <a href="terms-and-privacy.html" target="_blank">Privacy Policy</a></span>
+										</label>
+									</div>
+									<div class="form-group next-group">
+										<button type="submit" class="btn btn-lg btn-success flat btn-submit">Sign up</button>
+									</div>
+									<div class="similar_info text-center">
+										Have an account?
+										<a href="#" class="sign_in_btn login_btn">Sign In</a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+		<div class="modal fade" id="signin-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="sign-up-modal__right">
+						<div class="sign-up-modal__header">
+							<div>
+								<h1>Login</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
